@@ -14,5 +14,8 @@
 sed -i 's/192.168.1.1/10.0.0.250/g' package/base-files/files/bin/config_generate
 
 #========================================================================================================
-# 删除固件默认登录密码
-#sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
+# Clear the login password
+sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' openwrt/package/lean/default-settings/files/zzz-default-settings
+
+#  Replace with JerryKuKu’s Argon
+#rm openwrt/package/lean/luci-theme-argon -rf
