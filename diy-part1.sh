@@ -26,7 +26,7 @@ git clone https://github.com/kongfl888/luci-app-adguardhome.git package/adguardh
 git clone https://github.com/tty228/luci-app-serverchan.git package/serverchan
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # git clone https://github.com/project-lede/luci-app-godproxy.git package/godproxy
-
+#========================================================================================================
 # git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-autotimeset
 # git clone https://github.com/riverscn/openwrt-iptvhelper.git package/iptvhelper
 # git clone https://github.com/NateLol/luci-app-beardropper.git package/beardropper
