@@ -22,8 +22,8 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 # git clone https://github.com/kenzok8/openwrt-packages.git package/kenzok8
 
 #========================================================================================================
-git clone https://github.com/kongfl888/luci-app-adguardhome.git package/adguardhome
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+# git clone https://github.com/kongfl888/luci-app-adguardhome.git package/adguardhome
+# git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
 # git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
 # git clone https://github.com/project-lede/luci-app-godproxy.git package/godproxy
