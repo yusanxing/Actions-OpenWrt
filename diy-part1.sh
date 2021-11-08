@@ -22,8 +22,8 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 # git clone https://github.com/kenzok8/openwrt-packages.git package/kenzok8
 
 #========================================================================================================
-# git clone https://github.com/kongfl888/luci-app-adguardhome.git package/adguardhome
-# git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/kongfl888/luci-app-adguardhome.git package/adguardhome
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
 # git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
 # git clone https://github.com/project-lede/luci-app-godproxy.git package/godproxy
@@ -34,7 +34,5 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 # git clone https://github.com/apple/cups.git package/cups
 # git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jerrykuku-jd-dailybonus
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-# git clone https://github.com/jefferymvp/luci-app-koolproxyR.git package/koolproxyR
-# git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/koolproxyR
 
 # https://github.com/jerrykuku/luci-theme-argon
