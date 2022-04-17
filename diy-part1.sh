@@ -23,7 +23,10 @@
 
 
 #========================================================================================================
-svn co https://github.com/liuran001/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/liuran001/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-clash
+svn co https://github.com/liuran001/openwrt-packages/trunk/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-ddnsto package/luci-app-ddnsto
+
 # git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jerrykuku-jd-dailybonus
 # git clone https://github.com/kongfl888/luci-app-adguardhome.git package/adguardhome
 # git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
