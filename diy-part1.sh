@@ -18,17 +18,17 @@ echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' 
 
 
 #========================================================================================================
-git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
+#git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 
 
-# git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/jerrykuku-jd-dailybonus
-# git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/adguardhome
-# git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/jerrykuku-jd-dailybonus
+#git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/adguardhome
+#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
-# git clone https://github.com/project-lede/luci-app-godproxy.git package/lean/godproxy
+#git clone https://github.com/project-lede/luci-app-godproxy.git package/lean/godproxy
 #========================================================================================================
-# git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset
-# git clone https://github.com/riverscn/openwrt-iptvhelper.git package/lean/iptvhelper
-# git clone https://github.com/NateLol/luci-app-beardropper.git package/lean/beardropper
-# git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
-# https://github.com/jerrykuku/luci-theme-argon
+#git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset
+#git clone https://github.com/riverscn/openwrt-iptvhelper.git package/lean/iptvhelper
+#git clone https://github.com/NateLol/luci-app-beardropper.git package/lean/beardropper
+#git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
+#https://github.com/jerrykuku/luci-theme-argon
