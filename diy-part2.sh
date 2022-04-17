@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-# Modify default IP
+# Modify default IP  修改默认ip
 sed -i 's/192.168.1.1/10.0.0.33/g' package/base-files/files/bin/config_generate
 # sed -i 's/192.168.1.1/10.0.0.252/g' package/base-files/files/bin/config_generate
 
@@ -19,5 +19,5 @@ sed -i 's/192.168.1.1/10.0.0.33/g' package/base-files/files/bin/config_generate
 # 删除固件默认登录密码
 #sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
 
-#  Replace with JerryKuKu’s Argon
-#rm openwrt/package/lean/luci-theme-argon -rf
+#取消bootstrap为默认主题f
+#sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
