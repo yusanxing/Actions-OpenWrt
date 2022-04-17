@@ -17,6 +17,8 @@
    
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+     
+ echo 'src-git small8 https://github.com/kenzok8/small-package' >> /feeds.conf.default
 
 #  echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #  echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
@@ -25,7 +27,6 @@
 #========================================================================================================
 # svn co https://github.com/liuran001/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-clash
 # svn co https://github.com/liuran001/openwrt-packages/trunk/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
-git clone https://github.com/liuran001/openwrt-packages/trunk/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
 
 # git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jerrykuku-jd-dailybonus
 # git clone https://github.com/kongfl888/luci-app-adguardhome.git package/adguardhome
