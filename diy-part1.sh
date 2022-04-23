@@ -15,11 +15,12 @@
 
 # Add a feed source
 #echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
-
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 #========================================================================================================
-git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/adguardhome
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/jerrykuku-jd-dailybonus
+#git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/adguardhome
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/jerrykuku-jd-dailybonus
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
 #git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
