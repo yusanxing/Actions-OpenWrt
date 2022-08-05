@@ -11,8 +11,8 @@
 #
 
 # Modify default IP  修改默认ip
-sed -i 's/192.168.1.1/10.0.0.33/g' package/base-files/files/bin/config_generate
-#sed -i 's/192.168.1.1/10.0.0.252/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/10.0.0.33/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.0.0.252/g' package/base-files/files/bin/config_generate
 
 #========================================================================================================
 
