@@ -20,7 +20,7 @@
 
 #========================================================================================================
  git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
- svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-parentcontrol package/luci-app-parentcontrol
+
 
 # rm -rf feeds/packages/net/v2ray-geodata
 # git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
@@ -34,6 +34,7 @@
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-ddnsto package/luci-app-ddnsto
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-control-weburl package/luci-app-control-weburl
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-control-timewol package/luci-app-control-timewol
+# svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-parentcontrol package/luci-app-parentcontrol
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-advanced package/luci-app-advanced
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-autotimeset package/luci-app-autotimeset
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-socat package/luci-app-socat
